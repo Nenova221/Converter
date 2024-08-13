@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\User_PC\\source\\repos\\Converter\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2251AEC-E45A-4416-AA17-9023643B7E2B}|Converter\\Converter.csproj|c:\\users\\user_pc\\source\\repos\\converter\\converter\\metricandimperialconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2251AEC-E45A-4416-AA17-9023643B7E2B}|Converter\\Converter.csproj|solutionrelative:converter\\metricandimperialconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2251AEC-E45A-4416-AA17-9023643B7E2B}|Converter\\Converter.csproj|c:\\users\\user_pc\\source\\repos\\converter\\converter\\degreeconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2251AEC-E45A-4416-AA17-9023643B7E2B}|Converter\\Converter.csproj|solutionrelative:converter\\degreeconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{82743D27-AAF6-48FA-BB27-1A4239DDF4E8}|ConverterTest\\ConverterTest.csproj|c:\\users\\user_pc\\source\\repos\\converter\\convertertest\\convertertest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -15,8 +15,8 @@
       "RelativeMoniker": "D:0:0:{82743D27-AAF6-48FA-BB27-1A4239DDF4E8}|ConverterTest\\ConverterTest.csproj|solutionrelative:convertertest\\metricandimperialconvertertest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2251AEC-E45A-4416-AA17-9023643B7E2B}|Converter\\Converter.csproj|c:\\users\\user_pc\\source\\repos\\converter\\converter\\degreeconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2251AEC-E45A-4416-AA17-9023643B7E2B}|Converter\\Converter.csproj|solutionrelative:converter\\degreeconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2251AEC-E45A-4416-AA17-9023643B7E2B}|Converter\\Converter.csproj|c:\\users\\user_pc\\source\\repos\\converter\\converter\\metricandimperialconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2251AEC-E45A-4416-AA17-9023643B7E2B}|Converter\\Converter.csproj|solutionrelative:converter\\metricandimperialconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,11 +26,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 1444,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "DegreeConverter.cs",
               "DocumentMoniker": "C:\\Users\\User_PC\\source\\repos\\Converter\\Converter\\DegreeConverter.cs",
               "RelativeDocumentMoniker": "Converter\\DegreeConverter.cs",
@@ -39,7 +39,6 @@
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAABeAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-07T07:08:45.984Z",
-              "IsPinned": true,
               "EditorCaption": ""
             },
             {
@@ -57,13 +56,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "MetricAndImperialConverter.cs",
               "DocumentMoniker": "C:\\Users\\User_PC\\source\\repos\\Converter\\Converter\\MetricAndImperialConverter.cs",
               "RelativeDocumentMoniker": "Converter\\MetricAndImperialConverter.cs",
               "ToolTip": "C:\\Users\\User_PC\\source\\repos\\Converter\\Converter\\MetricAndImperialConverter.cs",
               "RelativeToolTip": "Converter\\MetricAndImperialConverter.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAxwBYAAAA+AAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-07T10:15:22.236Z",
               "EditorCaption": ""
@@ -76,7 +75,7 @@
               "RelativeDocumentMoniker": "ConverterTest\\MetricAndImperialConverterTest.cs",
               "ToolTip": "C:\\Users\\User_PC\\source\\repos\\Converter\\ConverterTest\\MetricAndImperialConverterTest.cs",
               "RelativeToolTip": "ConverterTest\\MetricAndImperialConverterTest.cs",
-              "ViewState": "AQIAABgAAAAAAAAAAAAowCkAAAAJAAAA",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAQwCkAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-07T11:00:23.383Z",
               "EditorCaption": ""

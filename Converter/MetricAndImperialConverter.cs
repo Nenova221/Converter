@@ -20,6 +20,7 @@ namespace Converter
             }
             throw new ArgumentOutOfRangeException($"Argument {nameof(unit)} is out of range");
         }
+        
         public static float Convert1(float lenght1, char unit1)
         {
             if (unit1 == 'K')
@@ -33,4 +34,5 @@ namespace Converter
             throw new ArgumentOutOfRangeException($"Argument {nameof(unit1)} is out of range");
         }
     }
+
 }
