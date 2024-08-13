@@ -15,7 +15,7 @@ namespace ConverterTest
         [InlineData(338, 'M', 1108.92)]
         public void Converter_WithConvertMethricAndImperial_ShouldReturnCorrect(float lenght, char unit, float expectedresult)
         {
-            float result = MetricAndImperialConverter.Convert(lenght, unit);
+            float result = MetricAndImperialConverter.ConvertMeterToFoot(lenght, unit);
             Assert.Equal(expectedresult, result, 2);
         }
         [Theory]
@@ -23,22 +23,49 @@ namespace ConverterTest
         [InlineData(244, 'P', 8523)]
         public void Converter_WithInvalidUnit_ShouldThrowExeption(float lenght, char unit, float expectedresult)
         {
-            Assert.Throws<ArgumentOutOfRangeException>(() => MetricAndImperialConverter.Convert(lenght, unit));
+            Assert.Throws<ArgumentOutOfRangeException>(() => MetricAndImperialConverter.ConvertMeterToFoot(lenght, unit));
         }
         [Theory]
         [InlineData(234, 'K', 146.2)]
         [InlineData(322, 'm', 515.2)]
         public void Converter_WithConvertMethricAndImperial1_ShouldReturnCorrect(float lenght, char unit, float expectedresult)
         {
-            float result = MetricAndImperialConverter.Convert1(lenght, unit);
+            float result = MetricAndImperialConverter.ConvertKilometersToMiles(lenght, unit);
             Assert.Equal(expectedresult, result, 1);
         }
         [Theory]
         [InlineData(456, 'd', 520)]
         [InlineData(199, 'J', 43)]
-        public void Converter_WithInvalidUnitShouldThrowExeption(float lenght, char unit, float expectedresult)
+        public void Converter_WithInvalidUnitShouldThrowExeption1(float lenght, char unit, float expectedresult)
         {
-            Assert.Throws<ArgumentOutOfRangeException>(() => MetricAndImperialConverter.Convert1(lenght, unit));
-        }       
+            Assert.Throws<ArgumentOutOfRangeException>(() => MetricAndImperialConverter.ConvertKilometersToMiles(lenght, unit));
+        }
+        [Theory]
+        [InlineData(149, "cm", 58.66)]
+        [InlineData(234, "in", 594.36)]
+        public void Converter_WithConvertMethricAndImperial2_ShouldReturnCorrect(float height, string unit, float expectedresult)
+        {
+            float result = MetricAndImperialConverter.ConvertCentimetersToInches(height, unit);
+            Assert.Equal(expectedresult, result,2);
+        }
+        [Theory]
+        [InlineData(456, "km", 520)]
+        [InlineData(199, "kW", 43)]
+        public void Converter_WithInvalidUnitShouldThrowExeption2(float lenght, string unit, float expectedresult)
+        {
+            Assert.Throws<ArgumentOutOfRangeException>(() => MetricAndImperialConverter.ConvertCentimetersToInches(lenght, unit));
+        }
+        [Theory]
+        [InlineData(504, "ib", 36)]
+        [InlineData(142, "st", 1988)]
+        public void Converter_WithConvertMethricAndImperial3_ShouldReturnCorrect(float height, string unit, float expectedresult)
+        {
+            float result = MetricAndImperialConverter.ConvertPoundsToStone(height, unit);
+            Assert.Equal(expectedresult, result, 1);
+        }
+        public void Converter_WithInvalidUnitShouldThrowExeption3(float height, string unit, float expectedresult)
+        {
+            Assert.Throws<ArgumentOutOfRangeException>(() => MetricAndImperialConverter.ConvertPoundsToStone(height, unit));
+        }
     }
 }

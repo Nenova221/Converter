@@ -103,3 +103,4 @@ C:\Users\User_PC\source\repos\Converter\ConverterTest\obj\Debug\net8.0\refint\Co
 C:\Users\User_PC\source\repos\Converter\ConverterTest\obj\Debug\net8.0\ConverterTest.pdb
 C:\Users\User_PC\source\repos\Converter\ConverterTest\obj\Debug\net8.0\ConverterTest.genruntimeconfig.cache
 C:\Users\User_PC\source\repos\Converter\ConverterTest\obj\Debug\net8.0\ref\ConverterTest.dll
+C:\Users\User_PC\source\repos\Converter\ConverterTest\obj\Debug\net8.0\ConverterTest.sourcelink.json

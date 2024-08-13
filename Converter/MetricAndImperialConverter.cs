@@ -8,7 +8,7 @@ namespace Converter
 {
     public class MetricAndImperialConverter
     {
-        public static float Convert(float lenght, char unit)
+        public static float ConvertMeterToFoot(float lenght, char unit)
         {
             if (unit == 'M')
             {
@@ -20,8 +20,7 @@ namespace Converter
             }
             throw new ArgumentOutOfRangeException($"Argument {nameof(unit)} is out of range");
         }
-        
-        public static float Convert1(float lenght1, char unit1)
+        public static float ConvertKilometersToMiles(float lenght1, char unit1)
         {
             if (unit1 == 'K')
             {
@@ -33,6 +32,31 @@ namespace Converter
             }
             throw new ArgumentOutOfRangeException($"Argument {nameof(unit1)} is out of range");
         }
+        public static float ConvertCentimetersToInches(float height, string unit2)
+        {
+            if (unit2 == "cm")
+            {
+                return (float)(height * 0.3937007874);
+            }
+            if (unit2 == "in")
+            {
+                return (float)(height / 0.3937007874);
+            }
+            throw new ArgumentOutOfRangeException($"Argument {nameof(unit2)} is out of range");
+        }
+        public static float ConvertPoundsToStone(float height, string unit3)
+        {
+            if (unit3 == "ib")
+            {
+                return (float)(height / 14);
+            }
+            if (unit3 == "st")
+            {
+                return (float)(height * 14);
+            }
+            throw new ArgumentOutOfRangeException($"Argument {nameof(unit3)} is out of range");
+        }
     }
-
 }
+
+

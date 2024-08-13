@@ -12,3 +12,4 @@ C:\Users\User_PC\source\repos\Converter\Converter\obj\Debug\net8.0\refint\Conver
 C:\Users\User_PC\source\repos\Converter\Converter\obj\Debug\net8.0\Converter.pdb
 C:\Users\User_PC\source\repos\Converter\Converter\obj\Debug\net8.0\Converter.genruntimeconfig.cache
 C:\Users\User_PC\source\repos\Converter\Converter\obj\Debug\net8.0\ref\Converter.dll
+C:\Users\User_PC\source\repos\Converter\Converter\obj\Debug\net8.0\Converter.sourcelink.json
