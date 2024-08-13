@@ -63,6 +63,9 @@ namespace ConverterTest
             float result = MetricAndImperialConverter.ConvertPoundsToStone(height, unit);
             Assert.Equal(expectedresult, result, 1);
         }
+        [Theory]
+        [InlineData(54, "cm", 363)]
+        [InlineData(1345, "km", 48)]
         public void Converter_WithInvalidUnitShouldThrowExeption3(float height, string unit, float expectedresult)
         {
             Assert.Throws<ArgumentOutOfRangeException>(() => MetricAndImperialConverter.ConvertPoundsToStone(height, unit));
